@@ -1,6 +1,6 @@
 import React from 'react'
 import "./tracking.css"
-const tracking = () => {
+const Tracking = () => {
   return (
      <>
     <div class="header">
@@ -76,4 +76,4 @@ const tracking = () => {
   )
 }
 
-export default tracking
+export default Tracking

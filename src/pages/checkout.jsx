@@ -1,6 +1,6 @@
 import React from 'react'
 import "./checkout.css"
-const checkout = () => {
+const Checkout = () => {
   return (
     <>
          
@@ -221,4 +221,4 @@ const checkout = () => {
   )
 }
 
-export default checkout
+export default Checkout
