@@ -1,10 +1,10 @@
 import { Route,Routes } from "react-router-dom"
 import { NavLink } from "react-router-dom"
 import Home from "./pages/Home"
-import Tracking from "./pages/Tracking"
 import Orders from "./pages/Orders"
 import Checkout from "./pages/checkout"
 import Notfound from "./pages/Notfound"
+import Tracking from "./pages/Tracking"
 
 function App() {
   

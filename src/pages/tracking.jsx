@@ -38,9 +38,9 @@ const Tracking = () => {
 
     <div class="tracking-page">
       <div class="order-tracking">
-        <a class="back-to-orders-link link-primary" href="orders.html">
+        <NavLink class="back-to-orders-link link-primary" href="/orders">
           View all orders
-        </a>
+        </NavLink>
 
         <div class="delivery-date">
           Arriving on Monday, June 13
