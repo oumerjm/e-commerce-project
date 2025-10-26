@@ -4,7 +4,7 @@ import Home from "./pages/Home"
 import Orders from "./pages/Orders"
 import Checkout from "./pages/checkout"
 import Notfound from "./pages/Notfound"
-import Tracking from "./pages/Tracking"
+import tracking from "./pages/tracking"
 
 function App() {
   
@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element = {<Home/>}/>
         <Route path="/orders" element = {<Orders/>}/>
-        <Route path="/tracking" element = {<Tracking />}/>
+        <Route path="/tracking" element = {<tracking />}/>
         <Route path="/checkout" element = {<Checkout />}/>
         <Route path="*" element = {<Notfound />}/>
       </Routes>

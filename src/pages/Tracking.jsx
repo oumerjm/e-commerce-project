@@ -1,7 +1,7 @@
 import React from 'react'
 import "./tracking.css"
 import { NavLink } from 'react-router-dom'
-const Tracking = () => {
+const tracking = () => {
   return (
      <>
     <div class="header">
@@ -77,4 +77,4 @@ const Tracking = () => {
   )
 }
 
-export default Tracking
+export default tracking
