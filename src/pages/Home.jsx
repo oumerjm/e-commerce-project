@@ -1,9 +1,17 @@
+import axios from "axios";
 import React from "react";
 import "./Home.css";
 import { NavLink } from "react-router-dom";
 import {  products } from "../../data/products";
 
 const Home = () => {
+
+  axios.get("http://localhost:3000/api/products")
+  .then((response)=>{
+   
+      console.log(response.data)
+    })
+ 
   return (
     <>
       <div className="header">
@@ -37,6 +45,9 @@ const Home = () => {
 
       <div className="home-page">
         <div className="products-grid">
+
+          
+
           {products.map((product) => {
             return (
               <div key= {product.id} className="product-container">
